@@ -23,9 +23,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lblResult: UILabel!
     
-    
-    
-    
     let currencyFormatter = NumberFormatter()
     
     var result : String? {
