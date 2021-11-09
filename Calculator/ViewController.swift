@@ -20,7 +20,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var icoResta: UIImageView!
     @IBOutlet weak var icoMultiplica: UIImageView!
     @IBOutlet weak var icoDividir: UIImageView!
-    
     @IBOutlet weak var lblResult: UILabel!
     
     let currencyFormatter = NumberFormatter()
@@ -112,15 +111,8 @@ class ViewController: UIViewController {
             print("Se ha pulsado una opcion inexistente")
             
         }
-        
-        
-        
     }
 
-    
-    
-
-    
     func applyOperation () {
         
         if result != nil {
